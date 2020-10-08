@@ -6,7 +6,7 @@ Frequently Asked Questions
 #### Table of Contents
 - ["How do I speed up `install`?"](#speed)
 - ["How do I fix a failing `install`?"](#failing)
-- ["How dow I generate a `npm-debug.log`?"](#debug)
+- ["How do I generate a `npm-debug.log`?"](#debug)
 - ["How can I get a `npm-debug.log` out of GitHub Actions/Workflow?"](#actions)
 - ["How can I `audit` a package without installing it?"](#audit-no-install)
 - ["How can I fully cache or vendor my deps so they're available offline?"](#vendor-deps)
@@ -28,7 +28,7 @@ Frequently Asked Questions
 - [ ] If you're project has peer dependecy conflict warnings or failures, try adding the flag `--legacy-peer-deps`
 - [ ] 
 
-#### <a name="debug"></a>"How dow I generate a `npm-debug.log`?"
+#### <a name="debug"></a>"How do I generate a `npm-debug.log`?"
 
 - Add the flag `--timing` to any command run (ex. `npm install express --timing`)
 
