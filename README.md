@@ -4,7 +4,7 @@ Frequently Asked Questions
 ### `npm`
 
 #### Table of Contents
-- ["How do I speed up `install`"?](#speed)
+- ["How do I speed up `install`?"](#speed)
 - ["How do I fix a failing `install`?"](#failing)
 - ["How dow I generate a `npm-debug.log`?"](#debug)
 - ["How can I get a `npm-debug.log` out of GitHub Actions/Workflow?"](#actions)
