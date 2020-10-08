@@ -35,3 +35,14 @@ Frequently Asked Questions
     name: npm-debug-logs
     path: ~/.npm/_logs/*-debug.log
 ```
+
+#### "How can I `audit` a package without installing it?"
+
+- Use this [`npm-audit` bash script](https://gist.github.com/darcyclarke/6d9e9de555997e9aa9fe828fe1fdef7d) (note: it runs `install` in a tmp directoy w/ `--package-lock-only` & then `audit` - should avoid firewalls/network issues w/ downloading vulnerable tars)
+
+#### "How can I fully cache or vendor my deps so they're available offline?"
+
+- Set your `cache` config (ex. in `.npmrc` `cache = ./some-local-cache-dir` or w/ `npm config set cache ./some-local-cache-dir`)
+- Run `npm install`
+- You should now be able to run `npm install` w/ the flag `--offline` or kill your network & it'll just work™️
+- [Example in the wild](https://github.com/darcyclarke/npm-offline-cache)
