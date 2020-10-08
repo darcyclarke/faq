@@ -7,7 +7,7 @@ Frequently Asked Questions
 - ["How do I speed up `install`?"](#speed)
 - ["How do I fix a failing `install`?"](#failing)
 - ["How do I generate a `npm-debug.log`?"](#debug)
-- ["How can I get a `npm-debug.log` out of GitHub Actions/Workflow?"](#actions)
+- ["How can I get a `npm-debug.log` out of **GitHub Actions/Workflows**?"](#actions)
 - ["How can I `audit` a package without installing it?"](#audit-no-install)
 - ["How can I fully cache or vendor my deps so they're available offline?"](#vendor-deps)
 
