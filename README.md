@@ -3,14 +3,14 @@ Frequently Asked Questions
 
 ## npm 
 
-#### How do I speed up `install`?
+#### "How do I speed up `install`"?
 
 - [ ] Use the latest [`node`]() & [`npm`]() versions (ie. `brew update && brew install node` & `npm i -g npm@latest`)
 - [ ] If you don't need dev dependencies, add the flag `--production`
 - [ ] If you don't need to **audit**, add the flag `--no-audit`
 - [ ] If you already have some of your modules cached, add the flag `--prefer-offline`
 
-#### How do I fix a failing `install`?
+#### "How do I fix a failing `install`"?
 
 - [ ] Check if you're using the latest [`node`]() & [`npm`]()
 - [ ] Check if the registry is down
@@ -20,11 +20,11 @@ Frequently Asked Questions
 - [ ] If you're project has peer dependecy conflict warnings or failures, try adding the flag `--legacy-peer-deps`
 - [ ] 
 
-#### How dow I generate a `npm-debug.log`?
+#### "How dow I generate a `npm-debug.log`"?
 
 - Add the flag `--timing` to any command run (ex. `npm install express --timing`)
 
-#### How can I get a `npm-debug.log` out of GitHub Actions/Workflow?
+#### "How can I get a `npm-debug.log` out of GitHub Actions/Workflow"?
 
 - Add a [`actions/upload-artifact`](https://github.com/actions/upload-artifact) step dedicated to saving debug logs as part of your workflow
 
