@@ -1,5 +1,5 @@
 # FAQ
-Frequently Asked Questions... not a complete list... more will be added soon...
+**Frequently Asked Questions** - this is not a complete list so expect more to be added over time...
 
 ### `npm`
 
