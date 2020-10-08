@@ -1,5 +1,5 @@
 # FAQ
-Frequently Asked Questions
+Frequently Asked Questions... not a complete list... more will be added soon...
 
 ### `npm`
 
@@ -26,7 +26,6 @@ Frequently Asked Questions
 - [ ] Check if your network is blocking certain requests (ie. behind a corporate firewall)
 - [ ] Check if [speeding up your installs]() helps
 - [ ] If you're project has peer dependecy conflict warnings or failures, try adding the flag `--legacy-peer-deps`
-- [ ] 
 
 #### <a name="debug"></a>"How do I generate a `npm-debug.log`?"
 
