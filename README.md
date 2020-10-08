@@ -26,13 +26,12 @@ Frequently Asked Questions
 
 #### How can I get a `npm-debug.log` out of GitHub Actions/Workflow?
 
-- Add [`actions/upload-artifact`](https://github.com/actions/upload-artifact) to your workflow
-- Example:
+- Add a [`actions/upload-artifact`](https://github.com/actions/upload-artifact) step dedicated to saving debug logs as part of your workflow
+
 ```yaml
-...
+# example: ./github/workflows/*.yml
 - uses: actions/upload-artifact@v2
   with:
     name: npm-debug-logs
     path: ~/.npm/_logs/*-debug.log
-...
 ```
