@@ -1,7 +1,7 @@
 # FAQ
 Frequently Asked Questions
 
-### npm 
+## npm 
 
 #### How do I speed up `install`?
 
