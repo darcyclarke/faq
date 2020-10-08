@@ -20,11 +20,11 @@ Frequently Asked Questions
 - [ ] If you're project has peer dependecy conflict warnings or failures, try adding the flag `--legacy-peer-deps`
 - [ ] 
 
-#### How dow I generate a `*-debug.log`?
+#### How dow I generate a `npm-debug.log`?
 
 - Add the flag `--timing` to any command run (ex. `npm install express --timing`)
 
-#### How can I get a `*-debug.log` out of GitHub Actions/Workflow?
+#### How can I get a `npm-debug.log` out of GitHub Actions/Workflow?
 
 - Add [`actions/upload-artifact`](https://github.com/actions/upload-artifact) to your workflow
 - Example:
